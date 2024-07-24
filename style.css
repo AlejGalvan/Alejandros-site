@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    /*flex-direction: column;*/
+}
+
+nav {
+    padding: 12px;
+    border-bottom: 1px dotted;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0px;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.logo a {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
